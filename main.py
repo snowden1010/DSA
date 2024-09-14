@@ -2,7 +2,7 @@ def linear_search(array, target):
     for item in array:
         if item == target:
             return f"Found {target} at {array.index(item)}"
-
+            wrong;
     return f"{target} doesn't exist"
 
 
